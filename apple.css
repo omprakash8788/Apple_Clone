@@ -1,0 +1,120 @@
+.container{
+    padding-top: 0px;
+    margin-top: -14px;
+    margin-left: -8px;
+}
+
+.navbar{
+    position: fixed;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin: auto;
+    background-color:rgba(22, 22, 23, .8); 
+    align-items: center;
+    cursor: pointer;
+    
+
+}
+.navbar-child{
+    width: 7%;
+    /* border: 1px solid red; */
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-align: center;
+}
+
+.section>p{
+    text-align: center;
+    background-color: #fbfbfd;
+    color: #1d1d1f;
+    font-size: 14px;
+    padding: 12px 0;
+    padding-top: 70px;
+}
+.photo-child>h1{
+    text-align: center;
+}
+.photo-child>p{
+    text-align: center;    
+}
+.photo-child>img{
+    width: 100%;
+}
+.second-photo-child>h1{
+    text-align: center;
+}
+.second-photo-child>p{
+    text-align: center;
+}
+.second-photo-child>img{
+    width: 40%;
+    padding-left: 330px;
+}
+.mobile{
+    background-color: black;
+    padding-top: 10px;
+
+}
+.mobile>h1{
+    text-align: center;
+    color: white;
+}
+.mobile>h3{
+    text-align: center;
+    color: white;
+}
+.mobile>p{
+    text-align: center;
+    color: white;
+}
+.mobile>img{
+    width: 40%;
+    padding-left: 370px;
+}
+.fourphoto{
+ display: grid;
+  grid-template-columns: auto auto ;
+  background-color: #2196F3;
+  padding: 10px;
+
+}
+.fourdiv{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 660px;
+    margin-left: -8px;
+
+}
+.fourdiv>div{
+    height: 300px;
+    border: 1px solid rgb(237, 237, 249);
+    
+}
+div>img{
+    width: 100%;
+}
+#footer{
+    display: flex;
+    width: 80%;
+    height: 400px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+#footer>div>p{
+    color: #424245;
+    font-size: 13px;
+}
+.right>p{
+    text-align: center;
+}
+
+
+
+
